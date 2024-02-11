@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["tksan66 <eto.hero@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tqdm = "^4.66.2"
+numpy = "^1.26.4"
+pandas = "^2.2.0"
+langchain = "^0.1.6"
+flask = "^3.0.2"
+openai = "^1.12.0"
+notebook = "^7.0.8"
+pymupdf = "^1.23.21"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
